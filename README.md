@@ -15,3 +15,4 @@ The following requirements were given:
 * The next step was to create a Model that stores the three data entries in each object, this model is called DataModel.kt in the project
 * From there we need to create an adapter, this adapter's purpose is to convert the data from the JSON objects into UI elements
 * The final step is to add functionality to our Main Activty that loads and displays the JSON data.
+* Labels are not included directly onto the UI, but for each object the data is displayed as id being the top element, listId as the middle element, and name as the bottom element.
